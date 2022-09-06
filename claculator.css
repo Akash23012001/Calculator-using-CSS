@@ -1,0 +1,156 @@
+.calc{
+    background-color: black;
+    display: inline-block;
+    width: 450px;
+    height: 470px;
+    flex-direction: column;
+    border: 3px solid rebeccapurple;
+    border-radius: 30px;
+}
+#dis{
+    display: flex;
+    align-self: flex-start;
+    width: 420px;
+    height: 60px;
+    border: 3px solid whitesmoke;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+button{
+    background-color: burlywood;
+    text-align: center;
+    border: 1px solid; 
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgba(252, 255, 255,0.9);
+}
+.operations{
+    margin-top: 40px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content:flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left:15px;
+
+}
+
+.numbers{
+
+    display: inline-block;
+    flex-direction: column;
+    position: relative;
+    margin-left: 60px;
+}
+#plus{
+    height: 50px;
+    width: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+#min{
+    height: 50px;
+    width: 60px;
+    margin-bottom: 20px;
+}
+#mul{
+    height: 50px;
+    width: 60px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#dive{
+    height: 50px;
+    width: 60px;
+    margin-bottom: 20px;
+}
+#rem{
+    height: 50px;
+    width: 60px;
+}
+#plus{
+    height: 50px;
+    width: 60px;
+}
+#equal{
+    margin-left: 70px;
+    height: 50px;
+    width: 180px;
+}
+#equal:hover{
+    background-color: green;
+}
+#one{
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 50px;
+    width: 50px;
+}
+#two{
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 50px;
+    width: 50px;
+}
+#three{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+#four{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+#five{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+#six{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 70px
+}
+#seven{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+#eight{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+#nine{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+#zero{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+} 
+#cancel{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+} 
+#cancel:hover{
+    background-color: crimson;
+}
