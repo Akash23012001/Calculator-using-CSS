@@ -1,7 +1,10 @@
+html{
+    text-align: center;
+}
 .calc{
     background-color: black;
     display: inline-block;
-    
+    margin: auto;
     width: 375px;
     height: 470px;
     flex-direction: column;
