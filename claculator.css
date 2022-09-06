@@ -1,7 +1,8 @@
 .calc{
     background-color: black;
     display: inline-block;
-    width: 450px;
+    
+    width: 375px;
     height: 470px;
     flex-direction: column;
     border: 3px solid rebeccapurple;
@@ -10,7 +11,7 @@
 #dis{
     display: flex;
     align-self: flex-start;
-    width: 420px;
+    width: 345px;
     height: 60px;
     border: 3px solid whitesmoke;
     margin: 10px;
@@ -45,7 +46,7 @@ button:hover{
     display: inline-block;
     flex-direction: column;
     position: relative;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 #plus{
     height: 50px;
@@ -78,22 +79,22 @@ button:hover{
     width: 60px;
 }
 #equal{
-    margin-left: 70px;
+    margin-left: 40px;
     height: 50px;
-    width: 180px;
+    width: 150px;
 }
 #equal:hover{
     background-color: green;
 }
 #one{
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 40px;
     height: 50px;
     width: 50px;
 }
 #two{
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 40px;
     height: 50px;
     width: 50px;
 }
@@ -101,56 +102,75 @@ button:hover{
     height: 50px;
     width: 50px;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 #four{
     height: 50px;
     width: 50px;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 #five{
     height: 50px;
     width: 50px;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 #six{
     height: 50px;
     width: 50px;
     margin-top: 20px;
-    margin-left: 70px
+    margin-left: 40px
 }
 #seven{
     height: 50px;
     width: 50px;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 #eight{
     height: 50px;
     width: 50px;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 #nine{
     height: 50px;
     width: 50px;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 #zero{
     height: 50px;
     width: 50px;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 40px;
 } 
 #cancel{
     height: 50px;
     width: 50px;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 40px;
 } 
 #cancel:hover{
     background-color: crimson;
+}
+
+@keyframes anime{
+    0% {color: springgreen;}
+    25% {color: violet;}
+    50% {color: royalblue;}
+    75% {color: orangered;}
+    100% {color: darkblue;}
+}
+#Name{
+    font-family: cursive;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    color: rebeccapurple;
+    animation-name: anime;
+    margin-left: 40px;
+    animation-duration: 50s;
+    animation-delay: 2s;
 }
