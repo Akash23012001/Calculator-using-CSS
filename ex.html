@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes chan{
+            0%  {background-color:darkorange;}     
+            25% {background-color:indigo ;}
+            50% {background-color: darkorange;}
+            75% {background-color: forestgreen;}
+            100% {background-color:navy ;}
+        }
+        .all{
+            background-color: cornflowerblue; 
+            position: relative; 
+            top: 20vh;
+            left: 40vh;
+            border: 2px solid black;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 20px 17px 10px black; 
+        }
+        .all:hover{
+            animation-name: chan;
+            animation-duration: 50s;
+            animation-delay: 1s;
+        }
+        .power{
+    
+            display: grid;
+            grid-template-columns: 40px 40px;
+            column-gap: 80px;
+            
+        }
+        #on:hover{
+            background-color: green;
+        }
+        #off:hover{
+            background-color: red;
+        }
+        .operation{
+            
+            display: grid;
+            grid-template-columns: 40px 40px 40px;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+        /* button{
+            border: 2px solid;
+            border-radius: 3px;
+
+        } */
+        hr{
+            border: 2px solid black;
+        }
+        .number{
+
+            display: grid;
+            grid-template-columns: 40px 40px 40px;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+        #display{
+            /* width:; */
+            height: 50px;
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+        #equal{
+            grid-column: 3/4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="all">
+
+        <form action="/html files/">
+            <input type="text" name="display" id="display" placeholder="Calculator">
+        </form>
+
+    <hr>
+    
+    <div class="power">
+    <button id="on">on</button>
+    <button id="off">off</button>
+    </div>
+    <hr>
+    <div class="number">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>00</button>
+        <button id="zero">0</button>
+        <button>C</button>
+    </div>
+    <hr>
+    <div class="operation">
+        <button id="plus">+</button>
+        <button id="min">-</button>
+        <button>*</button>
+        <button>/</button>
+        <button>%</button>
+        <button id="equal">=</button>
+    </div>
+    </div>
+</body>
+</html>
